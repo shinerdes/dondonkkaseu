@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>909551492409-5b76hpcesdfo3jk167kajm5nnj351lcf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.909551492409-5b76hpcesdfo3jk167kajm5nnj351lcf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB9i3D6_fTnj4j2Pa4weYDeBtmJtR4mXPc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>909551492409</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.shinerdes.dondonkkaseu</string>
+	<key>PROJECT_ID</key>
+	<string>dondonkkaseu-13dc1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dondonkkaseu-13dc1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:909551492409:ios:ba3a07f3d7ba7f4c435ce8</string>
+	<key>DATABASE_URL</key>
+	<string>https://dondonkkaseu-13dc1-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
