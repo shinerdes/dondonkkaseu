@@ -5,6 +5,7 @@ import 'package:dondonkkaseu/model/store_model.dart';
 import 'package:dondonkkaseu/screen/dialog_screen.dart';
 import 'package:dondonkkaseu/screen/login_screen.dart';
 import 'package:dondonkkaseu/screen/saved_store_screen.dart';
+import 'package:dondonkkaseu/screen/upload_store_screen.dart';
 
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
@@ -63,7 +64,7 @@ class _MapScreenState extends State<MapScreen> {
                         scaleBarEnable: true,
 
                         minZoom: 5, // default is 0
-                        maxZoom: 11, // default is 21
+                        maxZoom: 13, // default is 21
                       ),
                       onMapReady: (controller) async {
                         // 지도 준비 완료 시 호출되는 콜백 함수
@@ -113,12 +114,12 @@ class _MapScreenState extends State<MapScreen> {
                                         .then((value) {});
                                   },
                                   style: ButtonStyle(
-                                    padding: MaterialStateProperty.all(
+                                    padding: WidgetStateProperty.all(
                                         EdgeInsets.zero),
                                     backgroundColor:
-                                        MaterialStateProperty.all<Color>(
+                                        WidgetStateProperty.all<Color>(
                                             Colors.lightGreen),
-                                    shape: MaterialStateProperty.all<
+                                    shape: WidgetStateProperty.all<
                                         RoundedRectangleBorder>(
                                       RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(5),
@@ -140,12 +141,12 @@ class _MapScreenState extends State<MapScreen> {
                                     _showdialog(context);
                                   },
                                   style: ButtonStyle(
-                                    padding: MaterialStateProperty.all(
+                                    padding: WidgetStateProperty.all(
                                         EdgeInsets.zero),
                                     backgroundColor:
-                                        MaterialStateProperty.all<Color>(
+                                        WidgetStateProperty.all<Color>(
                                             Colors.lightGreen),
-                                    shape: MaterialStateProperty.all<
+                                    shape: WidgetStateProperty.all<
                                         RoundedRectangleBorder>(
                                       RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(5),
@@ -157,7 +158,7 @@ class _MapScreenState extends State<MapScreen> {
                                     size: 40.0,
                                   ),
                                 ),
-                              )
+                              ),
                               // const SizedBox(height: 20.0),
                               // Container(
                               //   height: 64.0,

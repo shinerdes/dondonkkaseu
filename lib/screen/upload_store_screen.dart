@@ -42,12 +42,12 @@ class _UploadStoreScrrenState extends State<UploadStoreScrren> {
                   .child('store')
                   .child(storeUuid)
                   .set({
-                "storeName": "모스키친 신대방삼거리",
-                "latitude": 37.4974983,
-                "longitude": 126.9276573,
-                "storeAddress": "서울 동작구 보라매로 91 1층",
-                "storePhoneNumber": "0507-1307-3529",
-                "storeURL": "https://naver.me/5JJQDIz0",
+                "storeName": "카츠야",
+                "latitude": 37.543066,
+                "longitude": 126.971812,
+                "storeAddress": "서울 용산구 한강대로81길 10 카츠야",
+                "storePhoneNumber": "010-7269-8627",
+                "storeURL": "https://naver.me/5izZuQRA",
               });
             },
             child: const Text('asdasd')),
